@@ -10,7 +10,7 @@ except Exception as e:
     raise USvisaException(e, sys) from e
 '''
 
-from us_visa.pipline.training_pipeline import TrainPipeline
+from us_visa.pipeline.training_pipeline import TrainPipeline
 
 
 pipline  = TrainPipeline()
